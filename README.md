@@ -56,7 +56,7 @@ con.sql("SELECT location_class, count(*) n FROM artifacts GROUP BY 1 ORDER BY n 
 docs/        course requirements, project plan, meeting notes
 scripts/     data download and one-off analysis scripts
 src/gitskills/   shared code (DuckDB loader, helpers)
-notebooks/   exploratory notebooks (clear outputs before committing)
+analysis/    one workspace per RQ (rq1_staleness, rq2_modified_copies, rq3_bundled_scripts); see analysis/README.md
 paper/       LaTeX source for the challenge paper
 data/        downloaded dataset (git-ignored)
 results/     generated tables and figures (git-ignored; copy final figures to paper/figures/)
@@ -64,8 +64,9 @@ results/     generated tables and figures (git-ignored; copy final figures to pa
 
 ## Team
 
-| Name | Role / RQ |
+| Name | RQ |
 |---|---|
-| Ian Mei | |
-| | |
-| | |
+| Ian Mei | RQ1 |
+| Ethan | RQ1 |
+| Euba | RQ2 |
+| Chloe | RQ3 |
