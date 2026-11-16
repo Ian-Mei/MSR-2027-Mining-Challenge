@@ -97,7 +97,7 @@ def main() -> None:
     ax.set_xlabel("Months between skill's last edit and repo's last push")
     ax.set_ylabel("Skills")
     ax.set_yscale("log")
-    ax.set_title(f"Repo staleness (n = {len(gaps):,}, sample of 2 artifact parts)")
+    ax.set_title(f"Repo staleness (n = {len(gaps):,})")
     fig.tight_layout()
     fig.savefig(OUT / "repo_gap_hist.png", dpi=150)
     print(f"wrote {OUT}")
